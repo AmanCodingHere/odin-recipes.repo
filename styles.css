@@ -1,13 +1,37 @@
+/*Universal selector for page consistency*/
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 .title {
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     background-color: blanchedalmond;
 }
 
 .pic{
     background-color: aqua;
+    padding: 50px;
+    margin-right: 400px;
 }
 
 .recipe {
-    background-color: red;
+    background-color: burlywood;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.recipe a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe a:hover {
+    color: purple;
+}
+
+.recipe a:active {
+    color: white;
 }
